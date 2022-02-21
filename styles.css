@@ -1,0 +1,67 @@
+/* ======================= Var ======================= */
+:root{
+    --primary-color: #B3E5FC;
+    --secondary-color: rgba(255, 255, 255, 0.836);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ======================= Nav Bar ======================= */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+/* .logo{
+
+}
+.logo img{
+
+} */
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+li{
+    list-style: none;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.links .link:hover{
+    color: white;
+}
+
+/* ======================= Home Page ======================= */
+#home .desc{
+    text-align: center;
+}
+.button{
+    text-decoration: none;
+}
+/* .button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: blue;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+  }
+  
+.button:hover{
+    background-color: var(--first-color-alt);
+} */
