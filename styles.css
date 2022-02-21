@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Raleway:wght@100&display=swap');
+
 /* ======================= Var ======================= */
 :root{
     --primary-color: #B3E5FC;
-    --alt-color: #00BCD4;
+    --alt-color: #EF9A9A;
     --secondary-color: rgba(255, 255, 255, 0.836);
 }
 
@@ -9,7 +12,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ======================= Nav Bar ======================= */
@@ -20,7 +23,6 @@
     min-height: 8vh;
     background-color: var(--primary-color);
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
 }
 /* .logo{
 
@@ -51,10 +53,11 @@ li{
 #home{
     height: 92vh;
     display: flex;
+    font-weight:100;
 }
 #home .text{
     padding-left: 10vh;
-    padding-top: 23vh;
+    padding-top: 20vh;
 }
 #home .title{
     font-size: 40px;
@@ -86,10 +89,36 @@ li{
     background-color: var(--primary-color);
     padding: .75rem 1rem;
     border-radius: .5rem;
-    transition: .3s;
+    /* transition: .3s; */
 }
 .button:hover{
     background-color: var(--alt-color);
 }
 
 /* =======================  Menu Home ======================= */
+#menu-home {
+    height: 92vh;
+}
+
+/* =======================  Footer ======================= */
+.footer .container{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+}
+.footer h3{
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+.footer .icon{
+    font-size: 1.5rem;
+    padding-right: 3vh;
+}
+.footer .icons{
+    padding-top: 2vh;
+}
+.footer .address li{
+    padding-bottom: 10vh;
+}
