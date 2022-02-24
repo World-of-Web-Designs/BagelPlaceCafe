@@ -3,7 +3,7 @@
 
 /* ======================= Var ======================= */
 :root{
-    --primary-color: #B3E5FC;
+    --primary-color: #FFAB91;
     --alt-color: #EF9A9A;
     --secondary-color: rgba(255, 255, 255, 0.836);
 }
@@ -21,15 +21,15 @@
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
+    max-height: 8vh;
     background-color: var(--primary-color);
     text-decoration: none;
 }
-/* .logo{
 
-}
 .logo img{
-
-} */
+    max-width: 10%;
+    padding-top: 4px;
+}
 a{
     color: black;
     font-weight: bold;
@@ -95,7 +95,7 @@ li{
     background-color: var(--alt-color);
 }
 
-/* =======================  Menu Home ======================= */
+/* =======================  Menu ======================= */
 #menu-home {
     height: 92vh;
 }
@@ -121,6 +121,51 @@ li{
     border-radius: 5px;
 }
 
+/* menu categories */
+#specials{
+    height: 125vh;
+}
+#bagels{
+    padding-bottom: 20vh;
+    padding-top: 5vh;
+}
+#sandwiches{
+    padding-bottom: 15vh;
+    padding-top: 5vh;
+}
+.item{
+    display: flex;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+.border-row .row{
+    border-top: 3px solid rgb(228, 228, 228);
+}
+.price{
+    text-align: left;
+}
+.menu-text p{
+    font-size: 24px;
+}
+.menu-text h3{
+    font-size: 18px;
+    color: grey;
+}
+.menu-image img{
+    max-width: 70px;
+    padding-left: 1vh;
+    padding-top: 1vh;
+}
+
+/* =======================  About ======================= */
+#about {
+    height: 92vh;
+}
+
 /* =======================  Footer ======================= */
 .footer .container{
     display: flex;
@@ -136,6 +181,7 @@ li{
 .footer .icon{
     font-size: 1.5rem;
     padding-right: 3vh;
+    padding-bottom: 5vh;
 }
 .footer .icons{
     padding-top: 2vh;
