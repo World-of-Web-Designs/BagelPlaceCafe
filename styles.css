@@ -241,7 +241,7 @@ li{
     }
     #home img{
         max-width: 40vh;
-        /* padding-left: 20vh; */
+        padding-left: 5vh;
         padding-bottom: 25vh;
     }
     #menu-home h1{
