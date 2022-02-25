@@ -221,7 +221,8 @@ li{
     #home .title{
         font-size: 18px;
         padding-top: 10vh;
-        padding-left: 20vh;
+        padding-left: 15vh;
+        color: red;
     }
     #home{
         max-width: 70vh;
