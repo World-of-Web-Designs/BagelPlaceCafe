@@ -209,6 +209,9 @@ li{
 
 /* =======================  Responsive ======================= */
 @media only screen and (max-width: 768px){
+    *{
+        max-width: 100vh;
+    }
     .nav a{
         padding-right: 15vh;
     }
@@ -230,7 +233,7 @@ li{
     }
     #home .btn{
         padding-bottom: 4vh;
-        padding-left: 5vh;
+        padding-left: vh;
     }
     #home .button{
         font-size: 12px;
