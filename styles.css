@@ -221,14 +221,14 @@ li{
     #home .title{
         font-size: 18px;
         padding-top: 10vh;
-        padding-left: 15vh;
+        padding-left: 10vh;
         color: blue;
     }
     #home{
         max-width: 70vh;
     }
     #home .desc{
-        padding-left: 4vh;
+        padding-left: 2vh;
         padding-top: 3vh;
         padding-bottom: 3vh;
     }
@@ -240,8 +240,8 @@ li{
         font-size: 12px;
     }
     #home img{
-        max-width: 40vh;
-        padding-left: 15vh;
+        max-width: 50vh;
+        padding-left: 10vh;
         padding-bottom: 25vh;
     }
     #menu-home h1{
