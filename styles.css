@@ -240,8 +240,8 @@ li{
         font-size: 12px;
     }
     #home img{
-        max-width: 50vh;
-        padding-left: 20vh;
+        max-width: 40vh;
+        /* padding-left: 20vh; */
         padding-bottom: 25vh;
     }
     #menu-home h1{
