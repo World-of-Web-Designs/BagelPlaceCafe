@@ -81,6 +81,10 @@ li{
     #menu-home .row2{
         padding-top: 5vh;
     }
+    #menu-home .category img{
+        width: 200px;
+        height: 200px;   
+    }
 }
 #home .image{
     padding-left: 22.5vh;
