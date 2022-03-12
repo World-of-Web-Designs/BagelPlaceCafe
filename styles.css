@@ -85,17 +85,21 @@ li{
         width: 200px;
         height: 200px;   
     }
+    /* #home .image{
+        padding-left: 25vh;
+    } */
+    #home .text{
+        padding-top: 10vh;
+    }
 }
-#home .image{
-    padding-left: 22.5vh;
-}
+
 #home .title{
     font-size: 40px;
     
     color: var(--primary-color);
 }
-#home .text{
-    padding-top: 10vh;
+#home .image{
+    text-align: center;
 }
 #home .desc{
     font-size: 18px;
@@ -219,6 +223,9 @@ li{
 .footer .address li{
     padding-bottom: 10vh;
 }
+.footer h3{
+    color: white;
+}
 
 /* =======================  Responsive ======================= */
 @media only screen and (max-width: 768px){
@@ -231,17 +238,22 @@ li{
     .nav .logo{
         padding-left: 5vh;
     }
+    #home .image{
+        /* padding-left: 16vh; */
+        text-align: center;
+    }
     #home .title{
         font-size: 18px;
-        padding-top: 10vh;
-        padding-left: 10vh;
+        /* padding-top: 10vh; */
+        /* padding-left: 10vh; */
+        text-align: center;
     }
     #home{
-        max-width: 70vh;
+        max-width: 50vh;
     }
     #home .desc{
         padding-left: 2vh;
-        padding-top: 3vh;
+        /* padding-top: 3vh; */
         padding-bottom: 3vh;
     }
     #home .btn{
@@ -288,6 +300,7 @@ li{
     .footer .content{
         padding: 2vh;
     }
+    
     .footer .icon{
         font-size: 1rem;
     }
