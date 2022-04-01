@@ -184,10 +184,11 @@ li{
 }
 .menu-text p{
     font-size: 24px;
+    color: black;
 }
 .menu-text h3{
     font-size: 18px;
-    color: white;
+    color: lightgrey;
 }
 .menu-image img{
     max-width: 70px;
